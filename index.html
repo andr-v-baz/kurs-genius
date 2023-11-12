@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="">
+        <a href="index.html">
           <img src="img/logo.svg" alt="Логотип сучасної пекарні"
         /></a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#pekarnya">Наші традиції</a></li>
+          <li><a href="#shef">Шеф-кухарі</a></li>
+          <li><a href="#formats">Формати</a></li>
+          <li><a href="#contact">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
     </header>
     <main>
-      <section><h1>Сучасна пекарня</h1></section>
       <section>
+        <h1>Сучасна пекарня</h1>
+      </section>
+      <section id="pekarnya">
         <ul>
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
@@ -38,9 +41,9 @@
           <span> 5 хвилин і замовлення готове.</span> А ще у наших пекарень
           стильний дизайн та висока якість обслуговування!
         </p>
-        <img src="img/bacer men.jpg" alt="Чоловік випікає хліб" />
+        <img src="img/bacermen.jpg" alt="Чоловік випікає хліб" />
       </section>
-      <section>
+      <section id="shef">
         <h2>Наші найкращі шеф -кухарі</h2>
         <ul>
           <li>
@@ -66,40 +69,36 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="formats">
         <h2>Формати</h2>
         <ul>
           <li>
             <article>
               <h3 lang="en">Walrus</h3>
-              <p>
-                Площа: до 120 м2 Меню: розширене меню Штат: 2 продавці-касири, 2
-                пекарі, 2 помічники пекаря, 2 офіціанти-різнороби Посадкові
-                місця: є
-              </p>
             </article>
           </li>
           <li>
             <article>
               <h3 lang="en">Horseshoe</h3>
-              <p>
-                Площа: до 25 м2 Меню: найпопулярніші позиції меню Штат: 2
-                продавці-касири, 2 пекарі, 1 помічник пекаря Посадкові місця:
-                відсутні
-              </p>
             </article>
           </li>
           <li>
             <article>
               <h3 lang="en">Handlebar</h3>
-              Площа: до 15 м2 Меню: найпопулярніші позиції меню Штат: 1
-              продавець, 1 пекар, 1 помічник пекаря Посадкові місця: відсутні
             </article>
           </li>
         </ul>
       </section>
-      <section>
+      <section id="contact">
         <h2>Приєднуйся до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699806089908!5m2!1suk!2sua"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -126,16 +125,14 @@
             >
           </li>
           <li>
-            <a href="#"></a
-            ><!-- facebook  -->
+            <a href="#"> <!-- facebook  --></a>
           </li>
           <li>
-            <a href="#"></a
-            ><!-- instagram -->
+            <a href="#"> <!-- instagram --></a>
           </li>
-          <a href="#" target="_blank">Політика конфіденційності</a>
-          <p>© 2022 Дані захищені</p>
         </ul>
+        <a href="#" target="_blank">Політика конфіденційності</a>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
