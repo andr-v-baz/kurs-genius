@@ -1,1 +1,1 @@
-# kurs-genius
+# genius-test
