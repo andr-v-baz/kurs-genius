@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -13,84 +13,91 @@
           <img src="img/logo.svg" alt="Логотип сучасної пекарні"
         /></a>
         <ul>
-          <li><a href="#pekarnya">Наші традиції</a></li>
-          <li><a href="#shef">Шеф-кухарі</a></li>
-          <li><a href="#formats">Формати</a></li>
-          <li><a href="#contact">Контакти</a></li>
+          <li><a class="link" href="#pekarnya">Наші традиції</a></li>
+          <li><a class="link" href="#shef">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats">Формати</a></li>
+          <li><a class="link" href="#contact">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
       <section id="pekarnya">
-        <ul>
+        <ul class="perevaga">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
-        <p>
-          <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
-          зберегла смак традиційної випічки та натуральність інгредієнтів.
+        <h2 class="section-title">Новий формат традицій</h2>
+        <p class="p-one-one">
+          <span class="accent-one">shop bakery</span> — це пекарня, яка взяла
+          все найкраще, і зберегла смак традиційної випічки та натуральність
+          інгредієнтів.
         </p>
-        <p>
+        <p class="p-one-two">
           Ми працюємо як найвідоміші мережі—
-          <span> 5 хвилин і замовлення готове.</span> А ще у наших пекарень
-          стильний дизайн та висока якість обслуговування!
+          <span class="accent-two"> 5 хвилин і замовлення готове.</span> А ще у
+          наших пекарень стильний дизайн та висока якість обслуговування!
         </p>
         <img src="img/bacermen.jpg" alt="Чоловік випікає хліб" />
       </section>
       <section id="shef">
-        <h2>Наші найкращі шеф -кухарі</h2>
+        <h2 class="section-title">
+          Наші найкращі <span class="accent-tree"> шеф -кухарі</span>
+        </h2>
         <ul>
           <li>
             <article>
-              <h3>Настя</h3>
-              <p>Привіт, я Настя!</p>
-              <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
-              <p>Я випічу для вас найсмачніщі вироби!</p>
+              <h3 class="secend-title">Настя</h3>
+              <p class="biography">Привіт, я Настя!</p>
+              <p class="biography">
+                Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.
+              </p>
+              <p class="biography">Я випічу для вас найсмачніщі вироби!</p>
               <img src="img/Kare.jpg" alt="Фото жінки " />
             </article>
           </li>
           <li>
             <article>
-              <h3>Влад</h3>
-              <p>Привіт, я Влад!</p>
-              <p>
+              <h3 class="secend-title">Влад</h3>
+              <p class="biography">Привіт, я Влад!</p>
+              <p class="biography">
                 Мій кодитерський стаж вже 18 років.SHOP BEKERY - це наша любов,
                 з якою ми ділимось кожен раз з Вами через нашу випічку!
               </p>
-              <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
+              <p class="biography">
+                Я зроблю для вас унікальну начинку на будь який смак!
+              </p>
               <img src="img/Vlad.jpg" alt="Фото чоловіка" />
             </article>
           </li>
         </ul>
       </section>
       <section id="formats">
-        <h2>Формати</h2>
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
-              <h3 lang="en">Walrus</h3>
+              <h3 class="title-four-tree" lang="en">Walrus</h3>
             </article>
           </li>
           <li>
             <article>
-              <h3 lang="en">Horseshoe</h3>
+              <h3 class="title-four-tree" lang="en">Horseshoe</h3>
             </article>
           </li>
           <li>
             <article>
-              <h3 lang="en">Handlebar</h3>
+              <h3 class="title-four-tree" lang="en">Handlebar</h3>
             </article>
           </li>
         </ul>
       </section>
       <section id="contact">
-        <h2>Приєднуйся до мережі пекарень</h2>
+        <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699806089908!5m2!1suk!2sua"
           width="600"
