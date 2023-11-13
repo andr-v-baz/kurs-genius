@@ -6,7 +6,11 @@
 }
 body
 {
-   background-color: var(--color-primary-lite);
+background-color: var(--color-primary-lite);
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+line-height: 27px;
+
 }
 
 /* button */
@@ -16,6 +20,8 @@ color: #FAF4EA;
 background-color: var(--color-brand-lite);
 border: 2px solid var(--color-brand-lite);
 border-radius: 8px;
+font-size: 18px;
+font-weight: 600;
 }
 .button:hover
 {
@@ -23,15 +29,35 @@ background-color: transparent;
 border: 2px solid var(--color-brand-dark);
 color:var(--color-brand-dark);
 cursor: pointer;
+
+font-weight: 600;
 }
 /* one-pages */
+.section-title-accent
+{
+   text-align: left;
+   font-size: 64px;
+   font-weight: 900;
+   line-height: 84px;
+  
+}
 .link
 {
-   color:  var(--color-primary-lite);
+   color: var(--color-primary-lite);
+   text-align: center;
+   text-decoration: none;
+   font-weight: 400;
+ 
+   
 }
 .link:hover
 {
 color: var(--color-brand-lite);
+text-align: center;
+text-decoration: none;
+font-weight: 600;
+
+
 }
 ul{
 list-style-type: none;
@@ -39,55 +65,114 @@ list-style-type: none;
 .hero-title
 {
 color:  var(--color-primary-lite);
-      
+font-weight: 900;
+text-align: center;
+font-size: 128px;
+line-height: 192px;
+
+
 }
 .hero-title .accent
 {
 color:var(--color-brand-lite);
 }
-
+/* two-pages */
 .perevaga
 {
-   background-color: var(--color-brand-lite);
+background-color: var(--color-brand-lite);
 color: var(--color-primary-lite);
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+
 }
-/* two-pages */
+
 .section-title
 {
    color: var(--color-primary-dark);
+   font-weight: 900;
+   font-size: 64px;
+line-height: 84px;
 }
 .p-one-one
 {
    color: var(--color-primary-dark);
+   font-weight: 400;
+ 
+
 
 }
 .p-one-one .accent-one
 {
    color: var(--color-brand-lite);
    text-transform: uppercase;
+   font-weight: 600;
+    
 }
 .p-one-two 
 {
    color: var(--color-primary-dark);
+   font-weight: 400;
+     
 }
 .p-one-two .accent-two {
    color:  var(--color-brand-lite);
+   font-weight: 600;
+     
 }
 /* tree-pages */
+.section-title
+{
+   text-align: center;
+}
 .section-title .accent-tree
 {
    color:var(--color-brand-dark);
+  
 }
 .secend-title
 {
    color: var(--color-primary-dark);
+   font-weight: 600;
+      font-size: 40px;
+      line-height: 60px;
+  
+
 }
 .biography
 {
    color: #A18268;
+   font-weight: 400;
+      line-height: 27px;
 }
 /* four-pages */
 .title-four-tree
 {
    color: var(--color-primary-lite);
+   line-height: 36px;
+   font-size: 24px;
+}
+/* foother */
+.footer-bottom
+{
+   color: var(--color-primary-lite);
+   font-weight: 400;
+   line-height: 27px;
+text-decoration: none;
+}
+.footer-dani
+{
+   color: var(--color-primary-lite);
+   font-weight: 300;
+   font-size: 16px; 
+   line-height: 24px;
+   text-decoration: none;
+   ;
+}
+p.footer-dani{
+   color: #A18268;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-decoration: none;
 }
